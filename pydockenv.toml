@@ -1,0 +1,16 @@
+[tool.pydockenv]
+name = "pokedex"
+python = "3.7"
+
+[tool.pydockenv.dependencies]
+jupyter = "==1.0.0"
+tensorflow = "==2.0.0"
+kaggle = "==1.5.6"
+pydot = "==1.4.1"
+graphviz = "==0.13"
+Pillow = "==6.2.0"
+scipy = "==1.3.1"
+matplotlib "==3.1.1"
+
+[tool.pydockenv.container_args]
+shm_size = "1G"
